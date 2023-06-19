@@ -1,5 +1,10 @@
 # 3D-GranjeroSaltador
 
+##Instantiate
+Crear una instancia de un objeto. Se utiliza para crear copias o clones de objetos en tiempo de ejecución.
+public static Object Instantiate(Object original);
+original: El objeto original que se desea instanciar. Puede ser un prefab, una referencia a un objeto existente o una instancia de un GameObject
+
 ## while
 Evalúa repetidamente y, mientras esa condición sea verdadera, el bloque de código dentro del while se ejecutará de forma repetitiva.  Para evitar bucles infinitos, asegúrate de que la condición del while se actualice o cambie en algún momento para que eventualmente se vuelva falsa y el bucle termine.
 
