@@ -1,5 +1,17 @@
 # 3D-GranjeroSaltador
 
+## while
+Evalúa repetidamente y, mientras esa condición sea verdadera, el bloque de código dentro del while se ejecutará de forma repetitiva.  Para evitar bucles infinitos, asegúrate de que la condición del while se actualice o cambie en algún momento para que eventualmente se vuelva falsa y el bucle termine.
+
+int count = 0;
+
+while (count < 5)
+{
+    Debug.Log("Count: " + count);
+    count++;
+}
+
+
 ## Movimiento y salto del personaje
 
 El personaje estará situado a la izquierda de la pantalla y aparentará moverse hacia la derecha. Pero
