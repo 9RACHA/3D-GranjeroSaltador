@@ -1,6 +1,6 @@
 # 3D-GranjeroSaltador
 
-##Instantiate
+## Instantiate
 Crear una instancia de un objeto. Se utiliza para crear copias o clones de objetos en tiempo de ejecución.
 public static Object Instantiate(Object original);
 original: El objeto original que se desea instanciar. Puede ser un prefab, una referencia a un objeto existente o una instancia de un GameObject
